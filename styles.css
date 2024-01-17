@@ -1,0 +1,60 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://wallpapers.com/images/hd/64k-ultra-hd-hacker-facing-a-computer-elabojtxwkju3z9e.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    color: #0000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    z-index: 99;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    z-index: 99;
+}
+
+.main-content {
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
